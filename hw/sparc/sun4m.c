@@ -977,6 +977,14 @@ static void sun4m_hw_init(const struct sun4m_hwdef *hwdef,
                 exit(1);
             }
 
+  if (hwdef->machine_id == 65) { /* SS-20 */
+    /* cg14.c */
+    void cg14_init(uint64_t ctrl_base, uint64_t vram_base,
+                uint32_t vram_size);
+
+    cg14_init(0x09c000000ULL, 0x0fc000000ULL, 8<<20);
+  } else
+
             tcx_init(hwdef->tcx_base, slavio_irq[11], 0x00100000,
                      graphic_width, graphic_height, graphic_depth);
         }
