@@ -1,0 +1,14 @@
+#Download ROMs
+wget http://home.earthlink.net/~reif/cpu10.bin
+wget http://home.earthlink.net/~reif/cpu24.bin
+wget http://home.earthlink.net/~reif/ipc.bin
+wget http://home.earthlink.net/~reif/lx.bin
+wget http://home.earthlink.net/~reif/lx564.bin
+wget http://home.earthlink.net/~reif/ross225r.bin
+wget http://home.earthlink.net/~reif/ss10_v2.25_rom
+wget http://home.earthlink.net/~reif/ss20_v2.25_rom
+wget http://home.earthlink.net/~reif/ss4.bin
+wget http://home.earthlink.net/~reif/ss5-170.bin
+wget http://home.earthlink.net/~reif/ss5.bin
+wget http://home.earthlink.net/~reif/ss600mp.bin
+wget http://home.earthlink.net/~reif/voyager.bin
